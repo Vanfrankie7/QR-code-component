@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* Below, to center the flex container at the view port */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Below, styling the flex container */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 280px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Below, giving the img dimensions */
+.card-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+
+/* Below, styling the h2 or text title */
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 1;
+}
+
+/* Below, styling the paragrah */
+.card-text {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+  margin-bottom: 20px;
+}
+
+.attribution {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .container {
+    width: 1200px;
+  }
+}
