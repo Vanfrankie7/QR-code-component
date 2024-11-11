@@ -61,10 +61,3 @@ body {
   text-align: center;
   margin-bottom: 5px;
 }
-
-/* Desktop styles */
-@media (min-width: 768px) {
-  .container {
-    width: 1200px;
-  }
-}
