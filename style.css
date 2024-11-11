@@ -7,18 +7,18 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
-}
-
-/* Below, to center the flex container at the view port */
-.container {
-  display: flex;
+/*    display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
+/*   Centering the card container on our viewport */
+  display: grid;
+  place-items: center;
   height: 100vh;
 }
 
 /* Below, styling the flex container */
-.card {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
